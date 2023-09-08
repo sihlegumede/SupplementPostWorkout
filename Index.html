@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TNT Mercury</title>	
+		<!--Link to CSS-->
+		<link rel="stylesheet" type="text/css" href="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Style\Stylesheet1.css">
+		<!--Icons-->
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+		<link rel="icon" type="image/x-icon" href="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\tnt logo.jpg">
+	</head>
+
+		<body>
+			<header>
+				<div class="nav container">
+					<a href="#" class="logo">TNT Mercury</a>
+
+					<nav class="navbar">
+						<a href="#PRODUCTS">products</a>
+						<a href="#REVIEW">review</a>
+						<a href="#CONTACT">contact</a>
+					</nav>
+
+					<div class="icons">
+						<i class='bx bx-search' id="search-icon" onclick="openSearch()"></i>
+						<i class='bx bx-shopping-bag' id="cart-icon"></i>
+						<i class='bx bx-menu' id="menu-icon"></i>
+					</div>
+
+					<div class="search-form" id="mySearch-form">
+						<span class="closeBtn" onclick="closeSearch()" title="Close Search form">x</span>
+						<div class="overlay-search">
+							<form action="#">
+								<input type="text" name="search">
+								<button type="submit"><i class='bx bx-search'></i></button>
+							</form>
+						</div>
+					</div>
+
+					<div class="cart">
+						<h2 class="cart-title">My cart</h2>
+						<div class="cart-content">
+
+						</div>
+						<!--Total-->
+						<div class="total">
+							<div class="total-title">Total</div>
+							<div class="total-price">R0</div>
+						</div>
+						<!--Buy Button-->
+						<button type="button" class="btn-buy">Purchase</button>
+						<!--Cart Close-->
+						<i class='bx bx-x' id="close-cart"></i>
+
+					</div>
+				</div>
+			</header>
+
+
+			<section class="shop container">
+				<h2 class="section-title" id="PRODUCTS">POST WORKOUT <span>PRODUCTS</span></h2>
+
+
+				<div class="shop-content">
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\Casein-750g-Chocolate-Hazelnut.png" alt="" class="product-img">
+						<h2 class="product-title">MICELLAR CASEIN</h2>
+						<span class="price">R499.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\Supa-Whey-1850g-Vanilla-Caramel.png" alt="" class="product-img">
+						<h2 class="product-title">ANABOLIC SUPA WHEY</h2>
+						<span class="price">R298.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\Prime-Vegan-Protein.png" alt="" class="product-img">
+						<h2 class="product-title">PRIME VEGAN PROTEIN</h2>
+						<span class="price">R410.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\Prime-Whey-900g.png" alt="" class="product-img">
+						<h2 class="product-title">PRIME WHEY</h2>
+						<span class="price">R479.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\Titanium-Whey-Choc-Caramel.png" alt="" class="product-img">
+						<h2 class="product-title">TITANIUM WHEY</h2>
+						<span class="price">R950.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\TNT-Black-Mass-White-Choc-1.png" alt="" class="product-img">
+						<h2 class="product-title">BLACK MASS</h2>
+						<span class="price">R949.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\TNT-Bar-Pack-Shot.png" alt="" class="product-img">
+						<h2 class="product-title">BLACK MASS PROTEIN BAR</h2>
+						<span class="price">R357.60</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\Hyper-Mass-4kgBag-Vanilla-Fudge-1.png" alt="" class="product-img">
+						<h2 class="product-title">HYPER MASS BAG</h2>
+						<span class="price">R369.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\SUPA-MASS-4kg-Choc-Mousse-1.png" alt="" class="product-img">
+						<h2 class="product-title">SUPA MASS</h2>
+						<span class="price">R159.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+					<div class="product-box">
+						<figure><img src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\Images\TNT-4kg-Bag-Super-Mass.png" alt="" class="product-img">
+						<h2 class="product-title">SUPA MASS BAG</h2>
+						<span class="price">R499.00</span>
+						<i class='bx bx-shopping-bag add-cart'></i></figure>
+					</div>
+
+				</div>
+				
+			</section>
+
+			<section class="review" id="REVIEW">
+				<h2 class="section-title">CUSTOMER'S <span>REVIEW</span></h2>
+
+				<div class="review-container">
+					<div class="review-box">
+						<img src="../SupplementsPostWorkout/Images/quotes.jpg" alt="" class="quote">
+						<p>amazing product blah blah...</p>
+						<img src="../SupplementsPostWorkout/Images/istockphoto-1278978817-2048x2048.webp" alt="" class="user">
+						<h3>John</h3>
+					</div>
+
+					<div class="review-box">
+						<img src="../SupplementsPostWorkout/Images/quotes.jpg" alt="" class="quote">
+						<p>amazing product blah blah...</p>
+						<img src="../SupplementsPostWorkout/Images/istockphoto-1288538088-612x612.jpg" alt="" class="user">
+						<h3>Jack</h3>
+					</div>
+
+					<div class="review-box">
+						<img src="../SupplementsPostWorkout/Images/quotes.jpg" alt="" class="quote">
+						<p>amazing product blah blah...</p>
+						<img src="../SupplementsPostWorkout/Images/istockphoto-969233490-612x612.jpg" alt="" class="user">
+						<h3>Susan</h3>
+					</div>
+					<div class="review-box">
+						<img src="../SupplementsPostWorkout/Images/quotes.jpg" alt="" class="quote">
+						<p>amazing product blah blah...</p>
+						<img src="../SupplementsPostWorkout/Images/istockphoto-981750034-612x612.jpg" alt="" class="user">
+						<h3>Kathren</h3>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact" id="CONTACT">
+				<h2 class="section-title"><span>CONTACT</span> US</h2>
+				<div class="contact-container">
+
+					<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.4773705280604!2d28.276940899999992!3d-25.754791399999977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95670eee187df7%3A0x10a9c1afadd58dd4!2sTNT%20Mercury!5e0!3m2!1sen!2sza!4v1685961157863!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<form action="">
+						<h3>GET IN TOUCH</h3>
+						<div class="inputBox">
+							<span class='bx bx-user'></span>
+							<input type="text" placeholder="fullname" required>
+						</div>
+						<div class="inputBox">
+							<span class='bx bx-envelope'></span>
+							<input type="email" placeholder="email" required>
+						</div>
+						<div class="inputBox">
+							<span class='bx bx-phone'></span>
+							<input type="number" placeholder="phone number" required>
+						</div>
+						<input type="submit" value="contact now" class="btn-buy">
+					</form>
+				</div>
+			</section>
+			<section class="footer">
+				<div class="share">
+					<a href="#" class="bx bxl-facebook"></a>
+					<a href="#" class="bx bxl-twitter"></a>
+					<a href="#" class="bx bxl-instagram"></a>
+					<a href="#" class="bx bxl-linkedin"></a>
+					<a href="#" class="bx bxl-pinterest"></a>
+				</div>
+				<div class="links">
+					<a href="#PRODUCTS">products</a>
+						<a href="#REVIEW">review</a>
+						<a href="#CONTACT">contact</a>
+				</div>
+				<div class="credit">created by <span>mr. SS Gumede</span>|all rights reserved</div>
+			</section>
+
+			<script src="C:\Users\sihle\Desktop\Websites\SupplementsPostWorkout\JavaScript\Script.js"></script>
+
+		</body>
+</html>
